@@ -1,24 +1,32 @@
-# README
+# Getting started
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+You can use [ngrok](https://ngrok.com) to test payments locally
 
-Things you may want to cover:
+## Requirements
 
-* Ruby version
+```
+ruby 2.6.3
+nodejs v10.16.0
+yarn 1.21.1
+postgresql 12.0
+```
 
-* System dependencies
+## Install 
 
-* Configuration
+```sh
+ ./bin/setup
+``` 
 
-* Database creation
 
-* Database initialization
+Take a look at the `.env` file. Replace `TODO: change me` with your own values.
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Run server
 
-* Deployment instructions
+```
+  bundle exec rails s
 
-* ...
+  go to: http://localhost:3000
+```
+
+
